@@ -1,0 +1,257 @@
+/* Booking Section */
+.booking-page {
+    margin-top: 100px;
+    background-color: #242424;
+    color: rgba(255, 255, 255, 0.87);
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    width: 100%;
+    margin: 100x auto;
+    text-align: center;
+    line-height: 24px;
+    font-weight: 400;
+    padding-bottom: 100px;
+}
+
+.services-heading {
+    margin: 40px auto;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.services-span {
+    color: #29B6F6;
+}
+
+.services-heading:hover {
+    color: #29B6F6;
+    cursor: pointer;
+}
+
+.booking-heading-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.booking-heading-section-div {
+    width: 500px;
+    border: 1px solid white;
+    border-radius: 10px;
+    transition: transform 0.5s;
+}
+
+.booking-heading-section-div:hover {
+    transform: scale(1.03);
+}
+
+.booking-image {
+    width: 500px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.booking-content {
+    padding: 0 20px 20px 20px;
+}
+
+.booking-content-first-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.booking-content-first-row-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.booking-content-first-row-div > p {
+    margin: 5px 10px;
+}
+
+.plan-with-us {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+
+.plan-with-us-p {
+    margin: 0 0 10px 0;
+}
+
+.booking-button {
+    height: 40px;
+    font-size: 16px;
+    background-color: #29B6F6;
+    border: none;
+    border-radius: 7px;
+    padding: 0 10px;
+    color: black;
+}
+
+.booking-button:hover {
+    background-color: #0388f4;
+    cursor: pointer;
+}
+
+
+/* Pricing Section */
+.packages-section-with-heading {
+    margin-top: 100px;
+}
+
+.packages-section-with-heading > h1 {
+    margin: 40px auto;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.packages-section-with-heading > h1:hover {
+    color: #29B6F6;
+    cursor: pointer;
+}
+
+.packages-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.packages-section-card {
+    width: 300px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 20px 0;
+    transition: transform 0.5s;
+}
+
+.packages-section-card:hover {
+    transform: scale(1.03);
+}
+
+.packages-section-card-heading {
+    height: 50px;
+    background-color: #29B6F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0 20px 0;
+}
+
+.book-now-button {
+    width: 80%;
+}
+
+.price {
+    color: rgb(6, 255, 6);
+    margin: 0 0 15px 0;
+}
+
+
+/* Custom Booking Section */
+.custom-booking-section {
+    margin-top: 100px;
+}
+
+.custom-booking-section > h1 {
+    margin: 40px auto;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.custom-booking-section > h1:hover {
+    color: #29B6F6;
+    cursor: pointer;
+}
+
+.custom-booking-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.custom-booking-image {
+    width: 500px;
+    height: 320px;
+    border-radius: 10px;
+    transition: transform 0.5s;
+}
+
+.custom-booking-image:hover {
+    transform: scale(1.03);
+}
+
+.custom-booking-content {
+    width: 520px;
+    height: 320px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    transition: transform 0.5s;
+}
+
+.custom-booking-content:hover {
+    transform: scale(1.03);
+}
+
+
+@media (max-width: 1024px) {
+    .booking-heading-section {
+      flex-direction: column;
+      gap: 50px;
+    }
+  
+    .packages-section {
+      flex-direction: column;
+      gap: 50px;
+    }
+  
+    .custom-booking-card {
+      flex-direction: column;
+      gap: 50px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .booking-heading-section-div,
+    .packages-section-card,
+    .custom-booking-content {
+      width: 100%;
+      max-width: 300px;
+    }
+  
+    .booking-image,
+    .custom-booking-image {
+      width: 100%;
+      border-radius: 10px 10px 0 0;
+    }
+  
+    .booking-content,
+    .custom-booking-content {
+      padding: 20px;
+      border-radius: 0 0 10px 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .services-heading,
+    .packages-section-heading,
+    .custom-booking-section > h1 {
+      font-size: 28px;
+    }
+  
+    .booking-button,
+    .book-now-button {
+      font-size: 14px;
+    }
+  }
+  
