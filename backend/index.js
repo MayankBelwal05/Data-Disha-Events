@@ -26,7 +26,7 @@ app.use("/categories", categoryRouter);
 
 
 app.get("/", (req, res) => {
-	res.json({ msg: "this is homepage" })
+	res.json({ msg: "Check : Backend is running sucessfully and working fine" })
 })
 
 
