@@ -1,7 +1,3 @@
-// import Container from "../../components/container/Container";
-// import useAxiosPublic from "../../hooks/useAxiosPublic";
-// import { toast } from "react-hot-toast";
-
 const NewsLetter = () => {
  
   const handleSubmit = (e) => {

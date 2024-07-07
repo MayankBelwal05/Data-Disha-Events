@@ -38,7 +38,7 @@ const Signup = () => {
         e.preventDefault();
         try {
             const response = await axios.post(
-                "http://localhost:8080/users/register",
+                "https://data-disha-events.onrender.com/users/register",
                 {
                     username,
                     email,

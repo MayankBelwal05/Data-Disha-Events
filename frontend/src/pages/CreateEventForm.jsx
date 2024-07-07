@@ -27,7 +27,7 @@ const CreateEventForm = () => {
   useEffect(() => {
     const fetchCategories = async () => {
       try {
-        const response = await axios.get("http://localhost:8080/categories");
+        const response = await axios.get("https://data-disha-events.onrender.com/categories");
         setCategories(response.data);
       } catch (error) {
         console.error("Error fetching categories:", error);
@@ -60,7 +60,7 @@ const CreateEventForm = () => {
     setIsSubmitting(true);
 
     try {
-      const response = await axios.post("http://localhost:8080/categories", {
+      const response = await axios.post("https://data-disha-events.onrender.com/categories", {
         name: newCategoryInput,
       });
 
@@ -90,7 +90,7 @@ const CreateEventForm = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:8080/events",
+        "https://data-disha-events.onrender.com/events",
         formData,
         { headers: { Authorization: `${token}` } } // Include token in request headers
       );

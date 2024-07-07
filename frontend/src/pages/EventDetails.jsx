@@ -18,7 +18,7 @@ const EventDetails = () => {
     const fetchEventData = async () => {
       try {
         const response = await fetch(
-          `http://localhost:8080/events/${params.eventId}`
+          `https://data-disha-events.onrender.com/events/${params.eventId}`
         );
         
         const eventData = await response.json();

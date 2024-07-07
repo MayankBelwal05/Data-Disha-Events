@@ -16,7 +16,7 @@ const EventPage = () => {
     const fetchEvents = async () => {
       const token = localStorage.getItem("token");
       try {
-        const response = await fetch("http://localhost:8080/events", {
+        const response = await fetch("https://data-disha-events.onrender.com/events", {
           method: "GET",
           headers: {
             "Content-type": "application/json",

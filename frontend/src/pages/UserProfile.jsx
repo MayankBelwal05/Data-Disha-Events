@@ -16,7 +16,7 @@ export default function UserProfile() {
     e.preventDefault();
 
     axios
-      .get(`http://localhost:8080/users/logout`, {
+      .get(`https://data-disha-events.onrender.com/users/logout`, {
         headers: {
           Authorization: `${localStorage.getItem("token")}`,
         },
