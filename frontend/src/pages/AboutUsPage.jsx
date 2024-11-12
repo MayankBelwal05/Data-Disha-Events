@@ -5,7 +5,7 @@ import img2 from "../assets/about/food.jpg";
 import img3 from "../assets/about/hobby.jpg";
 import img4 from "../assets/about/nature.jpg";
 import img5 from "../assets/about/technology.jpg";
-import TeamCards from "./TeamCards";
+//import TeamCards from "./TeamCards";
 
 
 export default function AboutUsPage() {
