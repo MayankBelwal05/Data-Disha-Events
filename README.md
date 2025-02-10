@@ -1,5 +1,5 @@
 
-# Data-Disha-2345
+# Vibe Vista Events
 
 ## Introduction
 The EventPlanner website is a comprehensive platform designed to simplify event planning and management. It allows users to book events, create their own events, and offers a responsive layout for seamless access across various devices.
@@ -30,13 +30,13 @@ The EventPlanner website is a comprehensive platform designed to simplify event 
 Fullstack
 
 ## Deployed App
-Frontend: [https://data-disha-2345-ten.vercel.app/]
+Frontend: [https://vibe-vista-events.vercel.app/]
 
-Backend: [https://data-disha-2345-9rwv.onrender.com/]
+Backend: [https://data-disha-events.onrender.com/]
 
 ## Directory Structure
 ```
-Data-Disha-2345/
+Data-Disha-Events/
 ├─ backend/
 │  ├─ config/
 │  ├─ middleware/
@@ -72,8 +72,8 @@ Data-Disha-2345/
 To run the project locally, follow these steps:
 
 ```bash
-`git clone https://github.com/MayankBelwal05/Data-Disha-2345.git`
-`cd Data-Disha-2345`
+`git clone https://github.com/MayankBelwal05/Data-Disha-Events.git`
+`cd Data-Disha-Events`
 `npm install`
 `cd backend`
 `npm run server`
